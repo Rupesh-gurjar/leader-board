@@ -1,0 +1,319 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+width: 100%;
+min-height:100vh ;
+
+}
+.main{
+
+width: 100%;
+height: 100vh;
+background-color: rgb(172, 173, 173);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.board{
+width: 18%;
+height: 80%;
+display: flex;
+flex-direction: column;
+background-color: antiquewhite;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.board h1{
+font-size: 16px;
+font-weight: 600;
+margin-top: 20px;
+margin-left: 10px;
+
+}
+.rank{
+width:100%;
+height: 38%;
+display: flex;
+justify-content: right;
+
+}
+.one
+{
+display: flex;
+flex-direction: column;
+    height: 100%;
+    width: 25%;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 19px;
+}
+.photo1{
+    margin-top: 20px;
+    
+height: 22%;
+width: 70%;
+border-radius: 50%;
+background-image: url(avtar3.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.one>p{
+    margin-top: 5px;
+    margin-left: 3px;
+font-size: 7px;
+font-weight: 800;
+}
+span{
+font-weight: 600;
+
+}
+.ranks1{
+    margin-top: 5px;
+width: 65%;
+height: 30%;
+background-color: rgba(180, 198, 120, 0.979);
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+font-family: helvetica;
+
+}
+.two
+{
+display: flex;
+flex-direction: column;
+    height: 100%;
+    width: 25%;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-top: 13px;
+}
+.photo2{
+height: 20%;
+width: 80%;
+border-radius: 50%;
+background-image: url(avtar2.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+.two>p{
+    margin-top: 5px;
+
+font-size: 7px;
+font-weight: 800;
+}
+span{
+font-weight: 600;
+
+}
+.ranks2{
+    margin-top: 5px;
+width: 70%;
+height: 50%;
+background-color: rgba(180, 198, 120, 0.979);
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+font-family: helvetica;
+
+}
+
+.three
+{
+display: flex;
+flex-direction: column;
+    height: 100%;
+    width: 25%;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+margin-right: 10px;
+}
+.photo3{
+height: 20%;
+width: 80%;
+border-radius: 50%;
+background-image: url(avtar1.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+.three>p{
+    margin-top: 5px;
+
+font-size: 7px;
+font-weight: 800;
+}
+span{
+font-weight: 600;
+
+}
+.ranks3{
+    margin-top: 5px;
+width: 70%;
+height: 64%;
+background-color: rgba(180, 198, 120, 0.979);
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+font-family: helvetica;
+
+}
+.middle{
+
+width: 85%;
+height: 15%;
+background-color: brown;
+margin: 20px 15px;
+border-radius: 10px;
+display: flex;
+padding: 10px;
+color: white;
+justify-content: center;
+gap: 0 10px;
+}
+.moto1{
+    width: 90%;
+    height: 60%;
+    border-radius: 50%;
+    background-image: url(avtar4.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.moto>h6{
+    margin-top: 5px;
+
+
+}
+.middle>.point>h5,p{
+font-size: 10px;
+
+
+}
+.middle>.level>h5,p{
+    font-size: 10px;
+}
+.middle>.level,.point,.pois>h5{
+    margin-top: 10px;
+}
+.middle>.pois>h5,p{
+
+    font-size: 10px;
+}.middle>.level>p>.silver{
+color:white;
+
+
+}
+.middle>.level>p{
+    margin-top: 5px;
+}
+.middle>.point>p{
+    margin-top: 5px;
+}
+.middle>.pois>p{
+    margin-top: 5px;
+}
+.num1{
+
+display: flex;
+gap: 0 15px;
+
+}
+.num1>h5{
+font-weight: 500;
+margin-left: 20px;
+}
+.num1>h6>span{
+font-weight: 400;
+}
+.num1>.ri-vip-crown-fill{
+font-size: 17px;
+font-weight: 600;
+color: rgb(249, 2, 60);
+    margin-left: 40px;
+}
+
+.num2{
+margin-top: 10px;
+    display: flex;
+    gap: 0 15px;
+    
+    }
+    .num2>h5{
+    font-weight: 500;
+    margin-left: 20px;
+    }
+    .num2>h6>span{
+    font-weight: 400;
+    }
+    .num2>.ri-vip-crown-fill{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(249, 2, 60);
+        margin-left: 40px;
+    }
+    
+.num3{margin-top: 10px;
+
+    display: flex;
+    gap: 0 15px;
+    
+    }
+    .num3>h5{
+    font-weight: 500;
+    margin-left: 20px;
+    }
+    .num3>h6>span{
+    font-weight: 400;
+    }
+    .num3>.ri-vip-crown-fill{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(249, 2, 60);
+        margin-left: 40px;
+    }
+    .num4{
+
+margin-top: 10px;        display: flex;
+        gap: 0 15px;
+        
+        }
+        .num4>h5{
+        font-weight: 500;
+        margin-left: 20px;
+        }
+        .num4>h6>span{
+        font-weight: 400;
+        }
+        .num4>.king{
+        font-size: 17px;
+        font-weight: 600;
+        color: rgb(249, 171, 2);
+            margin-left: 40px;
+        }
+        
